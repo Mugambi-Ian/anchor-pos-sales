@@ -1,0 +1,29 @@
+{
+  "name": "prolox-solutions",
+  "version": "1.0.0",
+  "main": "main.js",
+  "build": {
+    "appId": "prolox.solutions",
+    "win": {
+      "target": "NSIS",
+      "icon": "./build/icon.ico"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ]
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist-windows": "electron-builder --win --ia32",
+    "dist-linux": "electron-builder --linux"
+  },
+  "author": "Ian Mugambi",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^11.1.1",
+    "electron-builder": "latest"
+  }
+}

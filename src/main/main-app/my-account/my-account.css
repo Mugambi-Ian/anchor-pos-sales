@@ -1,0 +1,19 @@
+.account-body {
+  background-color: #fff;
+  box-shadow: -12px 0 20px -12px rgba(0, 0, 0, 0.35),
+    12px 0 20px -12px rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+  max-width: 50vw;
+  max-height: 75vh;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+}
+img.aci {
+  height: 150px;
+  width: 150px;
+  align-self: center;
+}

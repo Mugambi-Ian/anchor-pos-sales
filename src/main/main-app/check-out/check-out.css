@@ -1,0 +1,160 @@
+.cart-list {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.customer-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item {
+  background-color: #fff;
+  box-shadow: -12px 0 20px -12px rgba(0, 0, 0, 0.35),
+    12px 0 20px -12px rgba(0, 0, 0, 0.35);
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  padding: 20px;
+  border-radius: 30px;
+  z-index: 2;
+  margin-left: 20px;
+}
+
+.cart-item .button {
+  width: 200px;
+  align-self: center;
+}
+.cart-item img {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
+
+.cart-item p {
+  margin: 0;
+}
+.cart-item p.n1 {
+  margin-top: 10px;
+}
+.order-info p.n2 {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.order-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-left: #5dbcd2 1px solid;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.field-input .name {
+  width: 100px;
+  margin: 0;
+  margin-right: 10px;
+}
+.order-info .field-input {
+  margin: 0;
+  margin-bottom: 30px;
+  max-width: 250px;
+  align-self: flex-end;
+}
+.order-info .field-input input {
+  max-width: 150px;
+}
+.c1 {
+  align-self: flex-end;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-weight: 300;
+  font-size: 25px;
+  background-color: #5dbcd2;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.c2 {
+  align-self: flex-end;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-weight: 300;
+  font-size: 25px;
+  color: #5dbcd2;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.customer-info .field-input {
+  margin-left: 30px;
+  max-width: 400px;
+}
+.customer-info .field-name {
+  margin-left: 20px;
+}
+.cart-item .item-btn {
+  position: fixed;
+  align-self: flex-end;
+  margin: 0;
+}
+.sale-body {
+  position: fixed;
+  background-color: #ffffff;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  justify-content: center;
+  display: flex;
+  animation: fade-in 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.reciept-box {
+  align-self: center;
+  height: 85vh;
+  width: 40vw;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reciept-box .cart-item img.unselectable {
+  height: 130px;
+  width: 130px;
+  border-radius: 100px;
+  border: #5dbcd2 1px solid;
+  align-self: center;
+  margin: auto;
+}
+.reciept-box .cart-item {
+  padding: 10px;
+  max-height: 200px;
+}
+.reciept-box .cart-item .order-info {
+  padding: 10px;
+  margin-left: 0;
+}
+.reciept-box .cart-item p.n2 {
+  margin-left: 10px;
+}
+.reciept-box p.n2 {
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-weight: 400;
+  color: #6d6d6d;
+}
+
+.reciept-box p.n2:last-of-type {
+  align-self: flex-end;margin-bottom: 20px;
+  margin-right:20px;
+}
